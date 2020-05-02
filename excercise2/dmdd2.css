@@ -1,0 +1,24 @@
+body {
+    background-color: #ccc;
+	padding:25px;
+}
+
+.profileimg{
+	max-width:200px;
+	padding: 10px;
+}
+
+.divleft {
+	float:left;	
+	/* border:1px solid black; */
+}
+
+.divright {
+	float:right;
+	width:80%;	
+	/* border:1px solid black; */
+}
+
+.divright > h1{
+	margin-top:0px;
+}
