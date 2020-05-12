@@ -5,7 +5,10 @@
     <title>Simone Freschi</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="dmdd2.css">
+     <link rel="stylesheet" media="screen and (min-width: 600px)" href="dmdd2.css">
+	<link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -13,13 +16,16 @@
 
 
 	<!-- The next line will add an image to your page -->
-	<img src="simone.jpg" class="profileimg">
+	<div id="divImgProfile">
+		<img src="simone.jpg" >
+	</div>
 
-	<div class="divright">
-		<!-- Heading 1, your most important heading, starts here -->
-		<h1>Simone Freschi</h1>
-		<!-- Heading 1 finishes here -->
-
+	<div id="divmain">
+		<div id="header">
+			<!-- Heading 1, your most important heading, starts here -->
+			<h1>Simone Freschi</h1>
+			<!-- Heading 1 finishes here -->
+		</div>
 		<hr>
 
 		<h2>About me</h2>
@@ -39,11 +45,16 @@
 
 		<!--edit the links and the URLs below for your favourite sites -->
 
-		<ol>
-			<li><a href="https://www.reddit.com/">Reddit</a></li>
-			<li><a href="https://www.youtube.com/">YouTube</a></li>
-			<li><a href="https://pocketmags.com/">Pocketmags</a></li>
-		</ol>
+		<div id="sitelist">
+			<ul>
+				<li><a href="https://www.reddit.com/">Reddit</a></li>
+				<li><a href="https://www.youtube.com/">YouTube</a></li>
+				<li><a href="https://pocketmags.com/">Pocketmags</a></li>
+			</ul>
+		</div>
+		
 	</div>
+	
 	<div style="clear:both"></div>
+	
 </body>

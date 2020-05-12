@@ -1,0 +1,78 @@
+body {
+    background-color: #d2dbe0;
+	color: #232f34;
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+}
+
+#divImgProfile > img{
+	width:100%;
+	margin: 80px 0 0 0;
+	padding:0;
+	display: block;
+}
+
+#divImgProfile {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+a:visited{
+	color: #232f34;
+}
+
+#divmain {
+	display:block;
+	background:#fefefe;
+	margin:10px;
+	padding: 5px;
+	height:auto;
+	min-width:250px;
+}
+
+#divmain  h1 {
+	margin-top:0px;
+	color:#fff;
+	padding:10px;
+	background-color: #344955;
+}
+
+#divmain hr {
+	background-color: #4a6572;
+}
+
+#sitelist ul {
+ list-style: none;
+ margin: 10px;
+ padding: 0;
+}
+
+#sitelist ul li a {
+	 background-color: #F9AA33;
+	 color: #232f34;
+	 display: block;
+	 font-size: 17px;
+	 font-weight: bold;
+	 margin-bottom: -1px;
+	 padding: 12px 10px;
+	 text-decoration: none;
+	 margin-bottom: 3px;
+}
+
+#sitelist a:hover {
+	 background-color: #F9AA33;
+	 color: #232f34;
+	 display: block;
+	 font-size: 17px;
+	 font-weight: bold;
+	 margin-bottom: -1px;
+	 padding: 12px 10px;
+	 text-decoration: none;
+	 margin-bottom: 3px;
+}
