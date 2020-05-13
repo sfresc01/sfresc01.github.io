@@ -41,3 +41,13 @@ a:visited{
 #divmain hr {
 	background-color: #4a6572;
 }
+
+#podcastdiv {
+	float:right;
+	width:50%;
+}
+
+#youtubediv {
+	float:left;
+	width:50%;
+}
