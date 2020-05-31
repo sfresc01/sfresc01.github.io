@@ -76,3 +76,53 @@ a:visited{
 	 text-decoration: none;
 	 margin-bottom: 3px;
 }
+
+
+/********** MENU *************/
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  background-color: #344955;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+ 
+}
+
+.topnav #myLinks a {
+	border-bottom:1px white solid;
+	 background: #F9AA33;
+  color: #232f34;
+}
+
+
+/* Style navigation menu links */
+.topnav a {
+  background-color: #344955;
+  color: #fff;
+  padding: 15px 16px;
+  font-size: 15px;
+  display: block;
+  text-decoration:none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #F9AA33;
+  display: block;
+  position: absolute;
+  color: #232f34;
+  right: 0;
+  top: 0;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
