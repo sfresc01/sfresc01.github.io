@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Three, Toys, One... Action!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/desktop.css">
+        <link rel="stylesheet" media="screen and (min-width: 767px) and (max-width: 1024px)" href="css/tablet.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="title">
+                    <a href="/">Three, Toys, One... Action!</a> 
+                </div>
+                <table id="mainmenu">
+                    <tr>
+                        <td class="mainmenuitem">
+                            Homepage
+                        </td>
+                        <td class="mainmenuitem">
+                            Movies by Category
+                        </td>
+                        <td class="mainmenuitem">
+                            Movies by Letter
+                        </td>
+                        <td class="mainmenuitem">
+                            Upload a Scene
+                        </td>
+                        <td class="mainmenuitem">
+                            About Us
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="mobileheader">
+                <div class="hamburger">
+                    <div id="titlemobile">
+                        <a href="/">Three, Toys, One... Action!</a> 
+                    </div>
+                    <div id="hamburgerItems">
+                        <a href="/">Homepage</a>
+                        <a href="">Movies by Category</a>
+                        <a href="">Movies by Letter</a>
+                        <a href="">Upload a Scene</a>
+                        <a href="">About Us</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="showHideHamburger()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <script >
+            function showHideHamburger() {
+                var x = document.getElementById("hamburgerItems");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html> 

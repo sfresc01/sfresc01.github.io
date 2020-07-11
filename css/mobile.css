@@ -1,0 +1,57 @@
+div#header {
+    display: none;
+}
+
+div#mobileheader {
+    
+    padding: 8px 0px 8px 0px;
+}
+
+div#header > div#title {
+    display:none;
+}
+
+div#titlemobile > a {
+    font-size: 22px;
+    margin: auto; 
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+table#mainmenu{
+    display: none;
+}
+
+.hamburger{
+    overflow: hidden;
+    position: relative;
+}
+
+.hamburger #hamburgerItems {
+    display: none;
+}
+  
+  /* Style navigation menu links */
+.hamburger #hamburgerItems a {
+    color: white;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.hamburger a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 8px 8px;
+}
+
+/* Add a grey background color on mouse-over */
+.hamburger a.icon:hover, #hamburgerItems a:hover {
+    background-color: #ddd;
+    color: black;
+}
