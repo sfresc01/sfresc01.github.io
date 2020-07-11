@@ -59,6 +59,7 @@ table#mainmenu > tr {
     border: 1px solid black;
     background-color: #f9f9f9;
 }
+
 #headerAndMain{
     padding-bottom: 60px;
     min-height: 100%;
@@ -86,3 +87,29 @@ a {
     position:relative;
 }
 
+.flexcontainer
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.flexitem
+{
+    padding: 5px;
+    width: 150px;
+    height: 135px;
+    margin: 15px;
+    line-height: 120px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.listbutton
+{
+    background-image: url('/images/listbutton.png');
+    width: 150px;
+    height: 135px;
+    text-align: center;
+}

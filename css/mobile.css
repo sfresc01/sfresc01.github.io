@@ -94,7 +94,7 @@ table#mainmenu{
 
 .scenelist_title {
    margin-left:90px; 
-   width:85%; 
+   width:70%; 
    height:50px;
    padding-left: 5px;
 }
@@ -121,3 +121,7 @@ table#mainmenu{
     font-size: 14px;
 }
 
+.flexcontainer
+{
+    flex-flow: row wrap;
+}
