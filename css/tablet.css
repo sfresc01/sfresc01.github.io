@@ -69,6 +69,7 @@ div#mobileheader {
 
 .scenelist_title > h2 {
    margin-top: 5px;
+   font-size: 22px;
 }
 
 .scenelist_description {
@@ -76,6 +77,12 @@ div#mobileheader {
 }
 
 .scenelist_author {
-    margin-left:90%; float:right; width:10%; height:110px; top:0; position:absolute;
+    margin-left:90%;
+    float:right; 
+    width:10%; 
+    height:110px; 
+    top:0; 
+    position:absolute;
+    font-size: 14px;
 }
 
