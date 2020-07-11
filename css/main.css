@@ -37,7 +37,6 @@ table#mainmenu{
 
 table#mainmenu > tr {
     width: 100%;
-    border:1px solid green;
 }
 
 .mainmenuitem {
@@ -47,4 +46,9 @@ table#mainmenu > tr {
     text-align: center; 
     vertical-align: middle;
     font-weight: bold;
+}
+
+.mainmenuitem > a {
+    color: #000000;
+    text-decoration: none;
 }
