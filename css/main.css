@@ -3,8 +3,9 @@ body{
     color: #000000;
     margin:0px;
     padding: 0px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 * {
@@ -15,13 +16,14 @@ div#container {
     width: 100%;
     margin: auto;
     height: 100%;
+    min-height: 100%;
 }
 
 div#header, div#mobileheader {
     background-color: #211f1f;
     margin: auto;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 0px;
 }
 
 div#header > div#title > a  {
@@ -52,3 +54,35 @@ table#mainmenu > tr {
     color: #000000;
     text-decoration: none;
 }
+
+#mainarea {
+    border: 1px solid black;
+    background-color: #f9f9f9;
+}
+#headerAndMain{
+    padding-bottom: 50px;
+    min-height: 100%;
+}
+
+a {
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #211f1f;
+    height: 60px;
+    margin-top: -50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.breacrumbs, .breacrumbs > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.scenelist_block {
+    position:relative;
+}
+

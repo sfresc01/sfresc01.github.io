@@ -6,9 +6,12 @@ div#header {
     padding: 10px 0px 0px 0px;
 }
 
+div#header > div#title {
+    margin-bottom: 10px;
+}
+
 div#header > div#title > a {
     font-size: 36px;
-
 }
 
 div#header > div #titlemobile {
@@ -18,11 +21,6 @@ div#header > div #titlemobile {
 table#mainmenu{
     width: 100%;
     height: 80px;
-}
-
-table#mainmenu > tr {
-    width: 100%;
-    border:1px solid green;
 }
 
 .mainmenuitem {
@@ -38,3 +36,53 @@ table#mainmenu > tr {
 div#mobileheader {
     display: none;
 }
+
+.breacrumbs {
+    margin: 2px 10px;
+}
+
+#mainarea {
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+/*** SCENE LIST ***/
+.scenelist_img {
+     width:150px; 
+     height:110px; 
+     float:left;
+     overflow:hidden;
+     position: relative;
+     border:1px solid #000000;
+}
+
+.scenelist_img > img {
+    min-width: 150px;
+    max-width: 210px;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.scenelist_title {
+    margin-left:150px;
+    width:70%;
+    height:50px; 
+    padding-left: 15px;
+}
+
+.scenelist_title > h2 {
+    margin-top: 5px;
+}
+
+.scenelist_description {
+   float:left; width:70%; height:60px; padding-left: 15px;
+}
+
+.scenelist_author {
+     margin-left:90%; float:right; width:10%; height:110px; top:0; position:absolute;
+}
+
