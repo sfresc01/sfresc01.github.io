@@ -139,3 +139,7 @@ a {
 .flexitem_mainarea {
     width: 100%;
 }
+
+#mainarea a {
+    color: #000000;
+}
