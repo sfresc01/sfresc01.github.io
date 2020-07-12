@@ -85,7 +85,7 @@ table#mainmenu{
     border:1px solid #000000;
 }
 
-.scenelist_img > img {
+.scenelist_img img {
     min-width: 90px;
     max-width: 130px;
     position: absolute;
@@ -103,7 +103,7 @@ table#mainmenu{
    padding-left: 5px;
 }
 
-.scenelist_title > h2 {
+.scenelist_title h2 {
    margin-top: 5px;
    font-size: 19px;
 }
