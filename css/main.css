@@ -136,10 +136,110 @@ a {
     color: #000000;
     text-decoration: none;
 }
+
 .flexitem_mainarea {
     width: 100%;
 }
 
 #mainarea a {
     color: #000000;
+}
+
+/******** Blackboard ********/
+.blackboard {
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.blackboard td {
+    padding:0px;
+}
+
+/************** BB Header *********/
+.blackboardheader, .blackboardheader tr {
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.blackboardheader th:nth-child(even) {
+    background-color: #ffffff; 
+    width: 50px; 
+    height: 50px;
+}
+
+.blackboardheader th:nth-child(odd) {
+    background-color: #000000; 
+    width: 50px; 
+    height: 50px;
+}
+
+.blackboardheader th:first-child {
+    background-color: #000000; 
+    width: 100px; 
+    height: 50px;
+}
+
+.blackboardheader tr:first-child > th {
+    border-bottom: 2px solid #000000;
+}
+
+/********* BB Body *******/
+.blackboardbody {
+    height: 100%;
+    width: 100%;
+    background-color: #211f1f;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+.blackboardbody td {
+    padding: 10px;
+}
+
+.blackboardbody tr > td:first-child {
+    width: 10px;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+.blackboardbody tr > td:last-child {
+    width: 5px;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+
+.flexcontainer_blackboard{
+    display: flex;
+}
+
+.flexitem_blackboard_img {
+    border: 1px solid #ffffff;
+    width: 50%;
+}
+
+.flexitem_blackboard_div{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.flexitem_blackboard_div > hr {
+    width: 100%;
+}
+
+.blackboard_description {
+    height: auto;
+    flex-grow : 1;
+}
+
+.blackboard_date {
+    float: left;
+}
+
+.blackboard_author {
+    float: right;
 }

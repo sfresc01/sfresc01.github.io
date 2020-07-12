@@ -86,3 +86,8 @@ div#mobileheader {
     font-size: 14px;
 }
 
+
+.blackboardheader th:nth-last-child(-n+6)
+{
+    display: none;
+}

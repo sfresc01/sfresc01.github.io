@@ -133,3 +133,57 @@ table#mainmenu{
 #leftmenu {
     display:none;
 }
+
+
+/********* BLACK BOARD ************/
+
+.blackboardheader th:nth-child(even) {
+    background-color: #ffffff; 
+    width: 30px; 
+    height: 30px;
+}
+.blackboardheader th:nth-child(odd) {
+    background-color: #000000; 
+    width: 30px; 
+    height: 30px;
+}
+
+.blackboardheader th:first-child {
+    background-color: #000000; 
+    width: 60px; 
+    height: 30px;
+}
+
+.blackboardheader th:nth-last-child(-n+2)
+{
+    display: none;
+}
+
+@media screen and (max-width: 620px) {
+    .blackboardheader th:nth-last-child(-n+6)
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .blackboardheader th:nth-last-child(-n+8)
+    {
+        display: none;
+    }
+}
+
+/********* BB Body *******/
+
+.flexcontainer_blackboard{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexitem_blackboard_img {
+    width: 100%;
+}
+
+.flexitem_blackboard_div{
+    width: 100%;
+}
