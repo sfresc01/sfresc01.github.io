@@ -86,9 +86,3 @@ div#mobileheader {
      margin-left:90%; float:right; width:10%; height:110px; top:0; position:absolute;
 }
 /************/
-
-/********* FLEX **********/
-.flexcontainer
-{
-    flex-flow: row wrap;
-}

@@ -2,6 +2,10 @@ div#header {
     display: none;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 div#mobileheader {
     
     padding: 8px 0px 8px 0px;
@@ -12,7 +16,7 @@ div#header > div#title {
 }
 
 div#titlemobile > a {
-    font-size: 22px;
+    font-size: 24px;
     margin: auto; 
     color: #ffffff;
     text-decoration: none;
@@ -124,4 +128,8 @@ table#mainmenu{
 .flexcontainer
 {
     flex-flow: row wrap;
+}
+
+#leftmenu {
+    display:none;
 }
